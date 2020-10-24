@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="40.314" viewBox="0 0 41 40.314">
+  <g id="Calendar" transform="translate(0.435 -0.121)">
+    <rect id="Retângulo_557" data-name="Retângulo 557" width="41" height="40" transform="translate(-0.435 0.435)" fill="none"/>
+    <path id="Caminho_149" data-name="Caminho 149" d="M5,12.492V34.978H34.978V12.492ZM32.48,5h5a2.36,2.36,0,0,1,2.5,2.5V37.476a2.36,2.36,0,0,1-2.5,2.5H2.5a2.36,2.36,0,0,1-2.5-2.5V7.5A2.36,2.36,0,0,1,2.5,5h5V2.5A2.36,2.36,0,0,1,9.994,0a2.36,2.36,0,0,1,2.5,2.5V5H27.483V2.5a2.5,2.5,0,0,1,5,0Zm-2.5,24.984h-5v-5h5Zm-7.5,0h-5v-5h5Zm7.5-7.5h-5v-5h5Zm-7.5,0h-5v-5h5Zm-7.5,7.5h-5v-5h5Z" transform="translate(0.121 0.121)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>
