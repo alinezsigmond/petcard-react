@@ -23,5 +23,7 @@
     font-size: 17px;
     color: #3C6382;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }

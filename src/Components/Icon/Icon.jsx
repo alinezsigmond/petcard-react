@@ -1,5 +1,4 @@
 import React from 'react'
-import Logo from '../../assets/images/paw-small.svg'
 
 import './icon.css'
 
@@ -7,9 +6,9 @@ export default function Icon(props) {
     return (
         <div>
             <div className="icon">
-                <img src={ Logo } alt="" />
+                <img src={ props.img } alt="" />
             </div>
-            <p className="icon-title">Meus pets</p>
+            <p className="icon-title"> {props.text} </p>
         </div>
     )
 }
