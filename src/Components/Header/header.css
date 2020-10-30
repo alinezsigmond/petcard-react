@@ -1,0 +1,8 @@
+.header {
+    background-color: #3C6382;
+    background-image: url(../../assets/images/pawPattern-dark-big.svg);
+    height: 242px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

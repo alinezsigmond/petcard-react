@@ -1,5 +1,6 @@
 import React from 'react'
 
+// import '../../reset.css'
 import './icon.css'
 
 export default function Icon(props) {
