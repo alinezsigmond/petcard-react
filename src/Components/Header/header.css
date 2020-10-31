@@ -2,7 +2,24 @@
     background-color: #3C6382;
     background-image: url(../../assets/images/pawPattern-dark-big.svg);
     height: 242px;
-    display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header p {
+    margin-top: 20px;
+    width: 300px;
+    color: white;
+    font-family: Quanto;
+    font-size: 36px;
+}
+
+.header div {
+    width: 132px;
+    height: 132px;
+    background-color: #92D4EF;
 }
