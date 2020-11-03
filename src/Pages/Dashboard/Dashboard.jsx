@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './dashboard.css';
 
 import Icon from '../../Components/Icon/Icon'
 import Header from '../../Components/Header/Header'
@@ -14,16 +14,17 @@ import Profile from '../../assets/images/profile.svg'
 
 function Dash() {
   return (
-    <div>
-        <Header img={Profile} />
-        <p>Textinho pra dar um espaço aqui</p>
-        <Icon img={Paw} text='Meus pets'/>
-        <Icon img={Calendar} text='Calendário' />
-        <Icon img={Tips} text='Dicas' />
-        <Icon img={Clinics} text='Clínicas próximas' />
-        <Icon img={Notifications} text='Notificações' />
-        <Icon img={Logout} text='Sair' />
-    </div>
+    <>
+        <Header img={Profile} titulo='Aline Zsigmond' />
+        <div className='dashIcons'>
+          <Icon img={Paw} text='Meus pets'/>
+          <Icon img={Calendar} text='Calendário' />
+          <Icon img={Tips} text='Dicas' />
+          <Icon img={Clinics} text='Clínicas próximas' />
+          <Icon img={Notifications} text='Notificações' />
+          <Icon img={Logout} text='Sair' />
+        </div>
+    </>
   );
 }
 
