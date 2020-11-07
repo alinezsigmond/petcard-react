@@ -7,7 +7,7 @@ function MenuContent(props) {
           <a
             href="https://github.com/Middlerun/cheeseburger-menu"
             onClick={props.closeCallback}
-            target="_blank">
+            target="_blank" rel="noopener noreferrer">
             Menu item 
           </a>
         </div>
