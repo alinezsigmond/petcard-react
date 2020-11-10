@@ -26,4 +26,13 @@ export const Icons = styled.body `
         word-wrap: inherit;
         justify-content: space-between;
     }
+
+    @media screen and (min-width: 820px) {
+        .dash1 {
+            width: 30%;
+        }
+        .dash2 {
+            width: 30%;
+        }
+    }
 `
