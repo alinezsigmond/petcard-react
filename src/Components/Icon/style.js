@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const IconStyle = styled.p `
-    width: 78px;
+    width: 99px;
     font-family: 'Summit Attack';
     font-size: 17px;
     color: #3C6382;

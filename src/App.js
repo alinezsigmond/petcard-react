@@ -1,25 +1,26 @@
 import React from 'react';
 import GlobalFonts from './assets/fonts/fonts';
 import './App.css';
-import {useState} from 'react';
+// import {useState} from 'react';
 
-import Dash from './Pages/Dashboard/Dashboard'
+// import Dash from './Pages/Dashboard/Dashboard'
+import MeusPets from './Pages/Meus pets/MeusPets'
 
-import CheeseburgerMenu from 'cheeseburger-menu'
-import HamburgerMenu from 'react-hamburger-menu'
-import MenuContent from './Components/MenuContent/MenuContent'
+// import CheeseburgerMenu from 'cheeseburger-menu'
+// import HamburgerMenu from 'react-hamburger-menu'
+// import MenuContent from './Components/MenuContent/MenuContent'
 
 function App() {
-  const [menuOpen,setMenuOpen]= useState(false)
+  // const [menuOpen,setMenuOpen]= useState(false)
   return (
     <>
-    <GlobalFonts />
-      <HamburgerMenu
+     <GlobalFonts />
+    {/*  <HamburgerMenu
         isOpen={menuOpen}
         menuClicked={()=>setMenuOpen(true)}
-        width={32}
-        height={24}
-        strokeWidth={5}
+        width={22}
+        height={18}
+        strokeWidth={3}
         rotate={0}
         color='#F00'
         borderRadius={2}
@@ -30,7 +31,8 @@ function App() {
         closeCallback={()=>setMenuOpen(false)}>
         <MenuContent closeCallback={()=>setMenuOpen(false)}/>
       </CheeseburgerMenu>
-      <Dash />
+      <Dash /> */}
+      <MeusPets />
     </>
   );
 }
