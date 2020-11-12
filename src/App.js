@@ -1,19 +1,27 @@
 import React from 'react';
 import GlobalFonts from './assets/fonts/fonts';
-import './App.css';
-// import {useState} from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-// import Dash from './Pages/Dashboard/Dashboard'
-import MeusPets from './Pages/Meus pets/MeusPets'
+// Páginas
+import Dash from './Pages/Dashboard/Dashboard'
+import MeusPets from './Pages/MeusPets/MeusPets'
 
+// Menu
 // import CheeseburgerMenu from 'cheeseburger-menu'
 // import HamburgerMenu from 'react-hamburger-menu'
 // import MenuContent from './Components/MenuContent/MenuContent'
+// import {useState} from 'react';
 
 function App() {
   // const [menuOpen,setMenuOpen]= useState(false)
   return (
     <>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={Dash} /> 
+        <Route path="/meuspets" component={MeusPets} />
+      </Switch>
+    </BrowserRouter>
      <GlobalFonts />
     {/*  <HamburgerMenu
         isOpen={menuOpen}
@@ -31,8 +39,8 @@ function App() {
         closeCallback={()=>setMenuOpen(false)}>
         <MenuContent closeCallback={()=>setMenuOpen(false)}/>
       </CheeseburgerMenu>
-      <Dash /> */}
-      <MeusPets />
+    <MeusPets /> 
+    <Dash />*/}
     </>
   );
 }

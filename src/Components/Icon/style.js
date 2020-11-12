@@ -11,7 +11,7 @@ export const IconStyle = styled.p `
     text-align: center;
     margin-block-end: 0;
 
-    div {
+    div.icon {
         width: 78px;
         height: 78px;
         border-radius: 8px;
@@ -19,5 +19,14 @@ export const IconStyle = styled.p `
         display: flex;
         align-items: center;
         justify-content: center;
+        &.m {
+            width: 99px;
+            height: 99px;
+        }
+        &.b {
+            width: 132px;
+            height: 132px;
+            background-color: #92D4EF;
+        }
     }
 `

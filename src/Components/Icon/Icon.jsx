@@ -7,7 +7,7 @@ import {IconStyle} from './style'
 export default function Icon(props) {
     return (
         <IconStyle>
-            <div className="icon" >
+            <div className={' icon ' + props.size} >
                 <img src={ props.img } alt="" />
             </div>
             <p className="icon-title"> {props.text} </p>

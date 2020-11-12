@@ -10,7 +10,7 @@ export default function Header(props) {
     return (
         <HeaderStyle>
             <img className='menuSandwich' src={menu} alt='' />
-            <Icon img={ props.img } text={props.titulo} />
+            <Icon size='b' img={ props.img } text={props.titulo} />
         </HeaderStyle>
     )
 }

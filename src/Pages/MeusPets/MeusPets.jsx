@@ -18,9 +18,9 @@ function MyPets() {
             <Header img={Paw} titulo='Meus Pets' />
             <IconsStyle>
                 <span className='my-pets'>
-                    <Icon img={Tequila} text='Tequila' />
-                    <Icon img={Cat} text='Joseph' />
-                    <Icon img={Add} text='Novo pet' />
+                    <Icon size='m' img={Tequila} text='Tequila' />
+                    <Icon size='m' img={Cat} text='Joseph' />
+                    <Icon size='m' img={Add} text='Novo pet' />
                 </span>
             </IconsStyle>
         </>

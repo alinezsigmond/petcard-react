@@ -1,10 +1,11 @@
 import React from 'react';
-// import './dashboard.css';
-import {Icons} from './style'
+import { Link } from 'react-router-dom'
 
+import {Icons} from './style' // Estilo
+//Componentes
 import Icon from '../../Components/Icon/Icon'
 import Header from '../../Components/Header/Header'
-
+// Imagens
 import Paw from '../../assets/images/paw-small.svg'
 import Calendar from '../../assets/images/cal-icon.svg'
 import Tips from '../../assets/images/dicas.svg'
@@ -19,7 +20,7 @@ function Dash() {
       <Icons>
         <Header img={Profile} titulo='Aline Zsigmond' />
         <div className='dash1'>
-          <Icon img={Paw} text='Meus pets'/>
+          <Link to='/meuspets' ><Icon img={Paw} text='Meus pets'/></Link>
           <Icon img={Calendar} text='Calendário' />
           <Icon img={Tips} text='Dicas' />
         </div>
