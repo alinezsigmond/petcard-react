@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../Components/Header/Header'
+import Header from '../../Components/HeaderLogged/HeaderLogged'
 import Icon from '../../Components/Icon/Icon'
 
 //Estilo

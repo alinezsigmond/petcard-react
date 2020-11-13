@@ -8,6 +8,7 @@ export const IconStyle = styled.p `
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
     text-align: center;
     margin-block-end: 0;
 
@@ -19,6 +20,7 @@ export const IconStyle = styled.p `
         display: flex;
         align-items: center;
         justify-content: center;
+        
         &.m {
             width: 99px;
             height: 99px;

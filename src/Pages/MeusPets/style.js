@@ -10,11 +10,15 @@ export const IconsStyle = styled.body `
         width: 99px;
     }
     .my-pets {
-        margin-left: 7%;
-        margin-right: 7%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
+        word-wrap: inherit;
         justify-content: space-around;
+        align-content: center;
     }
     img {
         border-radius: 8px;

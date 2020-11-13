@@ -11,7 +11,7 @@ export const HeaderStyle = styled.body `
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding-top: 25px;
+    padding-top: 0;
 
     p {
         margin-top: 5%;
@@ -19,7 +19,7 @@ export const HeaderStyle = styled.body `
         color: white;
         font-family: Quanto;
         font-size: 38px;
-        padding-bottom: 2%;
+        padding-top: 5%;
     }
 
     div {
@@ -29,8 +29,14 @@ export const HeaderStyle = styled.body `
         background-color: #92D4EF;
     }
 
-    .menuSandwich {
+    @media screen and (max-width: 820px) {
+        body {
+            padding-top: 10%;
+        }
+    }
+
+    /* .menuSandwich {
         padding-right: 80%;
         padding-top: 3%;
-    }
+    } */
 `

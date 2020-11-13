@@ -3,6 +3,8 @@ import GlobalFonts from './assets/fonts/fonts';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 // Páginas
+import Index from './Pages/Index/Index'
+import Login from './Pages/Login/Login'
 import Dash from './Pages/Dashboard/Dashboard'
 import MeusPets from './Pages/MeusPets/MeusPets'
 
@@ -18,7 +20,9 @@ function App() {
     <>
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Dash} /> 
+        <Route path="/" exact component={Index} /> 
+        <Route path="/login" component={Login} />
+        <Route path="/dashboard" component={Dash} />
         <Route path="/meuspets" component={MeusPets} />
       </Switch>
     </BrowserRouter>
@@ -38,9 +42,7 @@ function App() {
         isOpen={menuOpen}
         closeCallback={()=>setMenuOpen(false)}>
         <MenuContent closeCallback={()=>setMenuOpen(false)}/>
-      </CheeseburgerMenu>
-    <MeusPets /> 
-    <Dash />*/}
+      </CheeseburgerMenu>*/}
     </>
   );
 }

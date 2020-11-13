@@ -5,34 +5,34 @@ export const Icons = styled.body `
     height: 100%;
 
     .dash1 {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 93%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+    }
+    /* .dash2 {
         margin-top: 5%;
         margin-left: auto;
         margin-right: auto;
-        width: 87%;
+        width: 93%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         word-wrap: inherit;
         justify-content: space-between;
-    }
-    .dash2 {
-        margin-top: 5%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 87%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        word-wrap: inherit;
-        justify-content: space-between;
-    }
+    } */
 
     @media screen and (min-width: 820px) {
         .dash1 {
-            width: 30%;
-        }
+            width: 26%;
+        /* }
         .dash2 {
             width: 30%;
-        }
+        } */
     }
 `
