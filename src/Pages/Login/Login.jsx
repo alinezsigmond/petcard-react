@@ -1,12 +1,21 @@
 import React from 'react'
 import HeaderLogin from '../../Components/HeaderLogin/HeaderLogin'
-// import {LoginStyle} from './style'
+import Footer from '../../Components/Footer/Footer'
+import {LoginStyle} from './style'
+import {Link} from 'react-router-dom'
 
 export default function Login() {
     return (
         <>
             <HeaderLogin />
-            <p>Funcionou a bagaça?</p>
+            <LoginStyle>
+                <form className='login'>
+                    <input type="text" name="E-mail" placeholder='E-mail' />
+                    <input type="password" name="Senha" placeholder='Senha' />
+                </form>
+                <p>Esqueceu sua senha?</p>
+            <Link to='/dashboard'><Footer /></Link>
+            </LoginStyle>
         </>
     )
 }

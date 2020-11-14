@@ -16,6 +16,6 @@ export const ButtonStyle = styled.div `
         display: flex;
         justify-content: center;
         align-content: center;
-        padding-top: 9%;
+        padding-top: 6%;
     }
 `

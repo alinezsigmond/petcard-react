@@ -14,32 +14,32 @@ export const HeaderLoginStyle = styled.div `
     .slogan {
         font-size: 16px;
     }
-    .cadastrar {
-        margin-left: 20%;
-        margin-top: 13%;
-        display: flex;
-        justify-content: flex-start;
-    }
-    .login {
-        margin-right: 20%;
-        margin-top: -13%;
-        display: flex;
-        justify-content: flex-end;
-    }
     img {
         margin-top: 17%;
     }
+    .options {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 6%;
+    }
     @media screen and (min-width: 820px) {
-        .login {
-            margin-right: 20%;
-            margin-top: -4%;
-        }
-        .cadastrar {
-            margin-left: 20%;
-            margin-top: 5%;
-        }
         img {
             margin-top: 3%;
+        }
+        .options {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 2.3%;
+        }
+    }
+    @media screen and (max-height: 600px) {
+        img {
+            margin-top: 16%;
+        }
+        .options {
+            margin-top: 5%;
         }
     }
 `

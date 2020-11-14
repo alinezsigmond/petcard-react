@@ -13,7 +13,7 @@ function Index() {
             <div className='container'>
                 <img className='logo' src={Logo} alt="Logo PetCard" />
                 <p className='slogan'>A carteira de vacinação online do seu pet</p>
-                <Link to ='/dashboard'>
+                <Link to ='/login'>
                     <Button text='Login' />
                 </Link>
                 <p className='cadastro'>Não tem conta? Cadastre-se</p>

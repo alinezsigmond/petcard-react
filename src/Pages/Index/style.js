@@ -24,6 +24,9 @@ export const IndexStyle = styled.div `
         font-size: 15px;
         color: #3C6382;
     }
+    .logo {
+        width: 80%;
+    }
     @media screen and (min-width: 820px) {
         .slogan {
             font-size: 54px;

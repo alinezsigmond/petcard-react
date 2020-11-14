@@ -10,8 +10,10 @@ export default function HeaderLogin() {
             <HeaderLoginStyle>
                 <img src={Logo} alt='Logotipo PetCard' />
                 <p className='slogan'>A carteira de vacinação online do seu pet</p>
-                <p className='cadastrar'>Cadastrar</p>
-                <p className='login'>Login</p>
+                <div className='options'>
+                    <p>Cadastrar</p>
+                    <p>Login</p>
+                </div>
             </HeaderLoginStyle>
         </div>
     )
