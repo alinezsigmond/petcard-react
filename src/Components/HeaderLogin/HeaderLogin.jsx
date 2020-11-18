@@ -6,15 +6,13 @@ import {HeaderLoginStyle} from './style'
 export default function HeaderLogin() {
 
     return (
-        <div className='container'>
-            <HeaderLoginStyle>
-                <img src={Logo} alt='Logotipo PetCard' />
-                <p className='slogan'>A carteira de vacinação online do seu pet</p>
-                <div className='options'>
-                    <p>Cadastrar</p>
-                    <p>Login</p>
-                </div>
-            </HeaderLoginStyle>
-        </div>
+        <HeaderLoginStyle>
+            <img src={Logo} alt='Logotipo PetCard' />
+            <p className='slogan'>A carteira de vacinação online do seu pet</p>
+            <div className='options'>
+                <p>Cadastrar</p>
+                <p>Login</p>
+            </div>
+        </HeaderLoginStyle>
     )
 }

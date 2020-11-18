@@ -9,6 +9,8 @@ export const IndexStyle = styled.div `
     text-align: center;
     padding-top: 10%;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
 
@@ -25,13 +27,18 @@ export const IndexStyle = styled.div `
         color: #3C6382;
     }
     .logo {
-        width: 80%;
+        width: 70%;
+        margin: auto;
     }
     @media screen and (min-width: 820px) {
         .slogan {
             font-size: 54px;
             margin-left: 15%;
             margin-right: 15%;
+        }
+        .logo {
+            width: 30%;
+            margin: auto;
         }
     }
 `
