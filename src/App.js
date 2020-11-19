@@ -1,25 +1,49 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import GlobalFonts from './assets/fonts/fonts';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+// Páginas
+import Index from './Pages/Index/Index'
+import Login from './Pages/Login/Login'
+import Dash from './Pages/Dashboard/Dashboard'
+import MeusPets from './Pages/MeusPets/MeusPets'
+
+// Menu
+// import CheeseburgerMenu from 'cheeseburger-menu'
+// import HamburgerMenu from 'react-hamburger-menu'
+// import MenuContent from './Components/MenuContent/MenuContent'
+// import {useState} from 'react';
 
 function App() {
+  // const [menuOpen,setMenuOpen]= useState(false)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={Index} /> 
+        <Route path="/login" component={Login} />
+        <Route path="/dashboard" component={Dash} />
+        <Route path="/meuspets" component={MeusPets} />
+      </Switch>
+    </BrowserRouter>
+     <GlobalFonts />
+    {/*  <HamburgerMenu
+        isOpen={menuOpen}
+        menuClicked={()=>setMenuOpen(true)}
+        width={22}
+        height={18}
+        strokeWidth={3}
+        rotate={0}
+        color='#F00'
+        borderRadius={2}
+        animationDuration={0.5}
+      />
+      <CheeseburgerMenu
+        isOpen={menuOpen}
+        closeCallback={()=>setMenuOpen(false)}>
+        <MenuContent closeCallback={()=>setMenuOpen(false)}/>
+      </CheeseburgerMenu>*/}
+    </>
   );
 }
 
