@@ -17,7 +17,9 @@ export const IndexStyle = styled.div `
     .slogan {
         color: #3C6382;
         font-family: Quanto;
-        font-size: 38px;
+        font-weight: lighter;
+        font-size: 2.5rem;
+        width: 75%;
         margin-left: 3%;
         margin-right: 3%;
     }
@@ -27,16 +29,18 @@ export const IndexStyle = styled.div `
         color: #3C6382;
     }
     .logo {
-        width: 70%;
+        padding-top: 15%;
+        width: 80%;
         margin: auto;
     }
     @media screen and (min-width: 820px) {
         .slogan {
             font-size: 54px;
-            margin-left: 15%;
-            margin-right: 15%;
+            margin-left: auto;
+            margin-right: auto;
         }
         .logo {
+            padding-top: 0;
             width: 30%;
             margin: auto;
         }

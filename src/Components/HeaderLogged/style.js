@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import bg from '../../assets/images/pawPattern-dark-big.svg';
 
-export const HeaderStyle = styled.body `
+export const HeaderStyle = styled.header `
     background-color: #3C6382;
     background-image: url(${bg});
     width: 100%;
@@ -11,7 +11,10 @@ export const HeaderStyle = styled.body `
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding-top: 0;
+    padding-top: 10%;
+        @media screen and (min-width: 820px) {
+        padding-top: 0;
+    }
 
     p {
         margin-top: 5%;
@@ -21,18 +24,11 @@ export const HeaderStyle = styled.body `
         font-size: 38px;
         padding-top: 5%;
     }
-
     div {
         width: 132px;
         height: 132px;
         border-radius: 8px;
         background-color: #92D4EF;
-    }
-
-    @media screen and (max-width: 820px) {
-        body {
-            padding-top: 10%;
-        }
     }
 
     /* .menuSandwich {

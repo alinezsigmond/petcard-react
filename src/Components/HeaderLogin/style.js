@@ -11,6 +11,9 @@ export const HeaderLoginStyle = styled.div `
     font-size: 21px;
     text-align: center;
 
+    a{
+        color: white;
+    }
     .slogan {
         font-size: 16px;
     }
