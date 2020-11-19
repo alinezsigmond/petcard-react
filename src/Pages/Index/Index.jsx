@@ -12,6 +12,7 @@ export default function Index() {
         <IndexStyle>
                 <img className='logo' src={Logo} alt="Logo PetCard" />
                 <p className='slogan'>A carteira de vacinação online do seu pet</p>
+                <br></br>
                 <Link to ='/login'>
                     <Button text='Login' />
                 </Link>
