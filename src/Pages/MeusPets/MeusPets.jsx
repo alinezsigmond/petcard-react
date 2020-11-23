@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../Components/HeaderLogged/HeaderLogged'
 import Icon from '../../Components/Icon/Icon'
+import {Link} from 'react-router-dom'
 
 //Estilo
 import {IconsStyle} from './style'
@@ -20,7 +21,7 @@ function MyPets() {
                 <span className='my-pets'>
                     <Icon size='m' img={Tequila} text='Tequila' />
                     <Icon size='m' img={Cat} text='Joseph' />
-                    <Icon size='m' img={Add} text='Novo pet' />
+                    <Link to='/cadastro-cachorro'><Icon size='m' img={Add} text='Novo pet' /></Link>
                 </span>
             </IconsStyle>
         </>

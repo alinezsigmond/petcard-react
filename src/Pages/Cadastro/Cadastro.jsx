@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 import HeaderLogin from '../../Components/HeaderLogin/HeaderLogin'
 import Footer from '../../Components/Footer/Footer'
 import {CadastroStyle1, CadastroStyle2, Selection} from './style'
@@ -7,7 +7,7 @@ import {CadastroStyle1, CadastroStyle2, Selection} from './style'
 export default function Cadastro() {
     return (
         <>
-            <HeaderLogin />
+            <HeaderLogin option1='Cadastro' option2='Login' />
             <Selection />
             <CadastroStyle1>
                 <input type="text" name="Nome completo" placeholder='Nome completo' />
@@ -35,7 +35,7 @@ export default function Cadastro() {
                 </div>
                 <br />
             </CadastroStyle2>
-            <Footer />
+            <Link to='/login'><Footer /></Link>
         </>
     )
 }

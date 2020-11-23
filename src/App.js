@@ -8,6 +8,8 @@ import Cadastro from './Pages/Cadastro/Cadastro'
 import Login from './Pages/Login/Login'
 import Dash from './Pages/Dashboard/Dashboard'
 import MeusPets from './Pages/MeusPets/MeusPets'
+import NewDog from './Pages/NewDog/NewDog'
+import NewCat from './Pages/NewCat/NewCat';
 
 // Menu
 // import CheeseburgerMenu from 'cheeseburger-menu'
@@ -26,6 +28,8 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/dashboard" component={Dash} />
         <Route path="/meuspets" component={MeusPets} />
+        <Route path="/cadastro-cachorro" component={NewDog} />
+        <Route path="/cadastro-gato" component={NewCat} />
       </Switch>
     </BrowserRouter>
      <GlobalFonts />

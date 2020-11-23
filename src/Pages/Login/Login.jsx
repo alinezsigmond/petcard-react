@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 export default function Login() {
     return (
         <>
-            <HeaderLogin />
+            <HeaderLogin option1='Cadastro' option2='Login' />
             <Selection />
             <LoginStyle>
                 <input type="text" name="E-mail" placeholder='E-mail' />
