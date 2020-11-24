@@ -47,6 +47,9 @@ export const HeaderStyle = styled.div `
             justify-content: space-around;
             margin-top: 2.3%;
         }
+        p {
+            margin-top: 0;
+        }
     }
     @media screen and (max-height: 600px) {
         img {

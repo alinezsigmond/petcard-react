@@ -8,7 +8,7 @@ export default function HeaderPet() {
 
     return (
         <HeaderStyle>
-            <img src={Arrow} alt='Seta para a esquerda' />
+            <Link to='/meuspets'><img src={Arrow} alt='Seta para a esquerda' /></Link>
             <h1>Qual pet deseja cadastrar?</h1>
             <p className='fill'>Preencha o formulário abaixo</p>
             <div className='options'>

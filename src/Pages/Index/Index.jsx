@@ -15,7 +15,7 @@ export default function Index() {
                 <Link to ='/login'>
                     <Button text='Login' />
                 </Link>
-                <p className='cadastro'>Não tem conta? Cadastre-se</p>
+                <Link to='/cadastro'><p className='cadastro'>Não tem conta? Cadastre-se</p></Link>
         </IndexStyle>
     )
 }

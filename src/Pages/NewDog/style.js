@@ -6,7 +6,6 @@ export const Selection = styled.div `
     height: 4px;
     margin-right: 50%;
     @media screen and (min-width: 820px) {
-        
         margin-right: 50%;
     }
 `
@@ -16,7 +15,9 @@ export const BG = styled.div `
     padding-top: 5%;
     margin-top: -1%;
     background-color: rgba(146, 213, 239, 0.300);
-    
+    @media screen and (min-width: 820px) {
+        margin-top: -0.3%;
+    }
 `
 export const CadastroPet = styled.form `
     width: 88%;
@@ -51,12 +52,22 @@ export const CadastroPet = styled.form `
         padding-left: 5%;
     }
     @media screen and (min-width: 820px) {
-        padding-top: 2%;
         padding-left: 35%;
         width: 65%;
-        padding-bottom: 1%;
         input {
             width: 40%;
+            margin-left: 1%;
+            margin-top: 2%;
+            padding-left: 2%;
+        }
+        select {
+            width: 42.4%;
+            margin-left: 1%;
+            margin-top: 2%;
+            padding-left: 2%;
+        }
+        .data {
+            width: 40.3%;
             margin-left: 1%;
             margin-top: 2%;
             padding-left: 2%;
