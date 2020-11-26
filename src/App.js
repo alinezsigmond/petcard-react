@@ -21,6 +21,23 @@ function App() {
   // const [menuOpen,setMenuOpen]= useState(false)
   return (
     <>
+     <GlobalFonts />
+     {/* <HamburgerMenu
+        isOpen={menuOpen}
+        menuClicked={()=>setMenuOpen(true)}
+        width={22}
+        height={18}
+        strokeWidth={3}
+        rotate={0}
+        color='#000'
+        borderRadius={2}
+        animationDuration={0.5}
+      />
+      <CheeseburgerMenu
+        isOpen={menuOpen}
+        closeCallback={()=>setMenuOpen(false)}>
+        <MenuContent closeCallback={()=>setMenuOpen(false)}/>
+      </CheeseburgerMenu> */}
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Index} /> 
@@ -32,23 +49,6 @@ function App() {
         <Route path="/cadastro-gato" component={NewCat} />
       </Switch>
     </BrowserRouter>
-     <GlobalFonts />
-    {/*  <HamburgerMenu
-        isOpen={menuOpen}
-        menuClicked={()=>setMenuOpen(true)}
-        width={22}
-        height={18}
-        strokeWidth={3}
-        rotate={0}
-        color='#F00'
-        borderRadius={2}
-        animationDuration={0.5}
-      />
-      <CheeseburgerMenu
-        isOpen={menuOpen}
-        closeCallback={()=>setMenuOpen(false)}>
-        <MenuContent closeCallback={()=>setMenuOpen(false)}/>
-      </CheeseburgerMenu>*/}
     </>
   );
 }

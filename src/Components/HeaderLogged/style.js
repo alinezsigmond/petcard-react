@@ -20,19 +20,26 @@ export const HeaderStyle = styled.header `
         margin-top: 5%;
         width: 300px;
         color: white;
-        font-family: Quanto;
+        font-family: 'Quanto';
         font-size: 38px;
         padding-top: 5%;
     }
-    div {
+    /* div {
         width: 132px;
         height: 132px;
         border-radius: 8px;
         background-color: #92D4EF;
-    }
+    } */
 
     /* .menuSandwich {
         padding-right: 80%;
         padding-top: 3%;
     } */
+`
+
+export const MenuPosition = styled.div `
+    width: 85%;
+    display: flex;
+    align-self: center;
+    align-content: flex-start;
 `

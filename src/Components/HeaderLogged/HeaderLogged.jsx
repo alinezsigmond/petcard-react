@@ -1,14 +1,39 @@
 import React from 'react'
-// import GlobalFonts from '../../assets/fonts/fonts'
 
 import Icon from '../Icon/Icon'
-// import './header.css'
-import {HeaderStyle} from './style'
+import {HeaderStyle, MenuPosition} from './style'
 // import menu from '../../assets/images/menu.svg'
 
+// Menu
+import CheeseburgerMenu from 'cheeseburger-menu'
+import HamburgerMenu from 'react-hamburger-menu'
+import MenuContent from '../MenuContent/MenuContent'
+import {useState} from 'react';
+import {MenuStyle} from '../MenuContent/style'
+
 export default function Header(props) {
+  const [menuOpen,setMenuOpen]= useState(true)
     return (
         <HeaderStyle>
+            <MenuPosition>
+                <HamburgerMenu
+                isOpen={menuOpen}
+                menuClicked={()=>setMenuOpen(true)}
+                width={22}
+                height={18}
+                strokeWidth={3}
+                rotate={0}
+                color='#FFF'
+                borderRadius={2}
+                animationDuration={0.5}
+                style={MenuStyle}
+                />
+                <CheeseburgerMenu
+                    isOpen={menuOpen}
+                    closeCallback={()=>setMenuOpen(false)}>
+                    <MenuContent closeCallback={()=>setMenuOpen(false)}/>
+                </CheeseburgerMenu>
+            </MenuPosition>
             {/* <img className='menuSandwich' src={menu} alt='' /> */}
             <Icon size='b' img={ props.img } text={props.titulo} />
         </HeaderStyle>

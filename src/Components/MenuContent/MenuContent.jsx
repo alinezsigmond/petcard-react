@@ -8,28 +8,42 @@ import Dicas from '../../assets/images/menu-dicas.svg'
 import Clinicas from '../../assets/images/menu-clinicas.svg'
 import Notifications from '../../assets/images/menu-notificacoes.svg'
 import Logout from '../../assets/images/menu-logout.svg'
+import { MenuStyle } from './style'
 
-function MenuContent(props) {
-  const menuStyle = {
-    backgroundColor: 'rgba(146, 213, 239, 0.300)',
-    color: '#3C6382',
-    height: '100%',
-    textDecoration: 'none',
+export default function MenuContent(props) {
+  
+  return (
+    <>
+    <User />
+    <MenuStyle>
+      <div className="menu-item">
+        <Item link="/dashboard" img={Home} text='Início' />
+        <Item link="/meuspets" img={Pets} text='Meus Pets' />
+        <Item link="http://www.google.com" img={Calendar} text='Calendário' />
+        <Item link="http://www.google.com" img={Dicas} text='Dicas' />
+        <Item link="http://www.google.com" img={Clinicas} text='Clínicas próximas' />
+        <Item link="http://www.google.com" img={Notifications} text='Notificações' />
+        <Item link="/" img={Logout} text='Logout' />
+      </div>
+    </MenuStyle>
+    </>
+  )
+}
+
+export function User(props) {
+  const UserStyle = {
+    backgroundColor: '#3C6382',
+    color: '#FFF',
+    fontFamily: 'Summit Attack',
+    padding: '5%'
   }
   return (
-      <div className="menu" style={menuStyle}>
-      <div className="menu-item">
-        <Item style={menuStyle} link="http://www.google.com" img={Home} text='Página Inicial' />
-        <Item style={menuStyle} link="http://www.google.com" img={Pets} text='Meus Pets' />
-        <Item style={menuStyle} link="http://www.google.com" img={Calendar} text='Calendário' />
-        <Item style={menuStyle} link="http://www.google.com" img={Dicas} text='Dicas' />
-        <Item style={menuStyle} link="http://www.google.com" img={Clinicas} text='Clínicas próximas' />
-        <Item style={menuStyle} link="http://www.google.com" img={Notifications} text='Notificações' />
-        <Item style={menuStyle} link="http://www.google.com" img={Logout} text='Logout' />
-      </div>
-
-      {/* <p className="hint">Click outside the menu to close it, or swipe it closed on touch device</p> */}
+    <div style={UserStyle}>
+      oi. era essa  barrinha aqui que eu tava bugada pensando em como fazer
+      <br/>descobri =)
+      <br />
+      <br />
+      agora falta colocar o que precisa aqui e feshow
     </div>
   )
 }
-export default MenuContent

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default function Item(props) {
     const linkStyle = {
@@ -7,22 +8,21 @@ export default function Item(props) {
         fontSize: '16px',
         color: '#3C6382',
         display: 'flex',
-        flexWrap: 'wrap',
+        flexWrap: 'nowrap',
     }
     const imgStyle = {
         marginLeft: '10%',
         marginRight: '10%',
     }
     const pStyle = {
-        marginTop: '7%',
+        // marginTop: '7%',
     }
     return (
-        <a
+        <Link
         style={linkStyle}
         onClick={props.closeCallback}
-        href={props.link}
-        target="_blank" rel="noopener noreferrer">
+        to={props.link}>
         <img style={imgStyle} src={props.img} alt="" /> <p className='menuText' style={pStyle}> {props.text} </p> 
-        </a>
+        </Link>
     )
 }
