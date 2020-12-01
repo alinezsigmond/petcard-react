@@ -2,7 +2,6 @@ import React from 'react'
 
 import Icon from '../Icon/Icon'
 import {HeaderStyle, MenuPosition} from './style'
-// import menu from '../../assets/images/menu.svg'
 
 // Menu
 import CheeseburgerMenu from 'cheeseburger-menu'
@@ -12,7 +11,7 @@ import {useState} from 'react';
 import {MenuStyle} from '../MenuContent/style'
 
 export default function Header(props) {
-  const [menuOpen,setMenuOpen]= useState(true)
+  const [menuOpen,setMenuOpen]= useState(false)
     return (
         <HeaderStyle>
             <MenuPosition>

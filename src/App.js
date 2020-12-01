@@ -10,34 +10,12 @@ import Dash from './Pages/Dashboard/Dashboard'
 import MeusPets from './Pages/MeusPets/MeusPets'
 import NewDog from './Pages/NewDog/NewDog'
 import NewCat from './Pages/NewCat/NewCat';
-
-// Menu
-// import CheeseburgerMenu from 'cheeseburger-menu'
-// import HamburgerMenu from 'react-hamburger-menu'
-// import MenuContent from './Components/MenuContent/MenuContent'
-// import {useState} from 'react';
+import Calendario from './Pages/Calendário/Calendario';
 
 function App() {
-  // const [menuOpen,setMenuOpen]= useState(false)
   return (
     <>
-     <GlobalFonts />
-     {/* <HamburgerMenu
-        isOpen={menuOpen}
-        menuClicked={()=>setMenuOpen(true)}
-        width={22}
-        height={18}
-        strokeWidth={3}
-        rotate={0}
-        color='#000'
-        borderRadius={2}
-        animationDuration={0.5}
-      />
-      <CheeseburgerMenu
-        isOpen={menuOpen}
-        closeCallback={()=>setMenuOpen(false)}>
-        <MenuContent closeCallback={()=>setMenuOpen(false)}/>
-      </CheeseburgerMenu> */}
+    <GlobalFonts />
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Index} /> 
@@ -47,6 +25,7 @@ function App() {
         <Route path="/meuspets" component={MeusPets} />
         <Route path="/cadastro-cachorro" component={NewDog} />
         <Route path="/cadastro-gato" component={NewCat} />
+        <Route path='/calendario' component={Calendario} />
       </Switch>
     </BrowserRouter>
     </>

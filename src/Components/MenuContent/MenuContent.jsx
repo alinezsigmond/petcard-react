@@ -8,13 +8,15 @@ import Dicas from '../../assets/images/menu-dicas.svg'
 import Clinicas from '../../assets/images/menu-clinicas.svg'
 import Notifications from '../../assets/images/menu-notificacoes.svg'
 import Logout from '../../assets/images/menu-logout.svg'
+import Avatar from '../../assets/images/avatar-menu.svg'
+
 import { MenuStyle } from './style'
 
 export default function MenuContent(props) {
   
   return (
     <>
-    <User />
+    <User name='Aline Zsigmond' location='Foz do Iguaçu, PR' />
     <MenuStyle>
       <div className="menu-item">
         <Item link="/dashboard" img={Home} text='Início' />
@@ -35,15 +37,42 @@ export function User(props) {
     backgroundColor: '#3C6382',
     color: '#FFF',
     fontFamily: 'Summit Attack',
-    padding: '5%'
+    padding: '9%',
+    display: 'flex',
+    flexDirection: 'row',
+    paddingTop: '15%'
+  }
+  const NameStyle = {
+    fontFamily: 'Summit Attack',
+    fontSize: '17px',
+    marginBottom: '0',
+    marginBlockStart: '0',
+    marginBlockEnd: '0',
+    paddingTop: '1.5%',
+    textAlign: 'left',
+    marginLeft: '5%'
+  }
+  const LocationStyle = {
+    fontFamily: 'Summit Attack',
+    fontSize: '12px',
+    marginTop: '0',
+    marginBlockStart: '0',
+    marginBlockEnd: '0',
+    paddingTop: '0',
+    textAlign: 'left',
+    marginLeft: '5%'
+  }
+  const TextStyle = {
+    display: 'flex',
+    flexWrap: 'wrap'
   }
   return (
     <div style={UserStyle}>
-      oi. era essa  barrinha aqui que eu tava bugada pensando em como fazer
-      <br/>descobri =)
-      <br />
-      <br />
-      agora falta colocar o que precisa aqui e feshow
+      <img src={Avatar} alt='' /> 
+      <div style={TextStyle}>
+        <p style={NameStyle}>{props.name}</p>
+        <p style={LocationStyle}>{props.location}</p>
+      </div>
     </div>
   )
 }

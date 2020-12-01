@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "cheeseburger-menu": "0.0.13",
     "react": "^17.0.0",
+    "react-calendar": "^3.2.1",
     "react-dom": "^17.0.0",
     "react-hamburger-menu": "^1.2.1",
     "react-router-dom": "^5.2.0",
