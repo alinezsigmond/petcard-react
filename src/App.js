@@ -9,8 +9,9 @@ import Login from './Pages/Login/Login'
 import Dash from './Pages/Dashboard/Dashboard'
 import MeusPets from './Pages/MeusPets/MeusPets'
 import NewDog from './Pages/NewDog/NewDog'
-import NewCat from './Pages/NewCat/NewCat';
-import Calendario from './Pages/Calendário/Calendario';
+import NewCat from './Pages/NewCat/NewCat'
+import Calendario from './Pages/Calendário/Calendario'
+import PerfilPet from './Pages/PerfilPet/PerfilPet'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/cadastro-cachorro" component={NewDog} />
         <Route path="/cadastro-gato" component={NewCat} />
         <Route path='/calendario' component={Calendario} />
+        <Route path='/perfilpet' component={PerfilPet} />
       </Switch>
     </BrowserRouter>
     </>

@@ -20,6 +20,11 @@ export const IconStyle = styled.p `
         display: flex;
         align-items: center;
         justify-content: center;
+        img {
+                width: 100%;
+                height: 100%;
+                border-radius: 8px;
+            }
         
         &.m {
             width: 99px;
@@ -29,6 +34,11 @@ export const IconStyle = styled.p `
             width: 132px;
             height: 132px;
             background-color: #92D4EF;
+            
+        }
+        &.med {
+            width: 118px;
+            height: 118px;
         }
     }
 `

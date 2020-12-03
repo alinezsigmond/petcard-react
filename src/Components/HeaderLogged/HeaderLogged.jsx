@@ -1,7 +1,9 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 import Icon from '../Icon/Icon'
 import {HeaderStyle, MenuPosition} from './style'
+import Arrow from '../../assets/images/arrow.svg'
 
 // Menu
 import CheeseburgerMenu from 'cheeseburger-menu'
@@ -9,13 +11,18 @@ import HamburgerMenu from 'react-hamburger-menu'
 import MenuContent from '../MenuContent/MenuContent'
 import {useState} from 'react';
 import {MenuStyle} from '../MenuContent/style'
+import { useLocation } from 'react-router-dom'
 
 export default function Header(props) {
-  const [menuOpen,setMenuOpen]= useState(false)
+  const [menuOpen,setMenuOpen]= useState(false);
+  const usePathname = () => {
+    const location = useLocation();
+    return location.pathname;
+  }
     return (
         <HeaderStyle>
             <MenuPosition>
-                <HamburgerMenu
+                {usePathname()!=='/perfilpet' && <><HamburgerMenu
                 isOpen={menuOpen}
                 menuClicked={()=>setMenuOpen(true)}
                 width={22}
@@ -31,9 +38,9 @@ export default function Header(props) {
                     isOpen={menuOpen}
                     closeCallback={()=>setMenuOpen(false)}>
                     <MenuContent closeCallback={()=>setMenuOpen(false)}/>
-                </CheeseburgerMenu>
+                </CheeseburgerMenu></>}
+                {usePathname()==='/perfilpet' && <Link to='meuspets'><img className='back' src={Arrow} alt='' /></Link> }
             </MenuPosition>
-            {/* <img className='menuSandwich' src={menu} alt='' /> */}
             <Icon size='b' img={ props.img } text={props.titulo} />
         </HeaderStyle>
     )

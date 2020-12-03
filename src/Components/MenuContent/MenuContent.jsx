@@ -21,7 +21,7 @@ export default function MenuContent(props) {
       <div className="menu-item">
         <Item link="/dashboard" img={Home} text='Início' />
         <Item link="/meuspets" img={Pets} text='Meus Pets' />
-        <Item link="http://www.google.com" img={Calendar} text='Calendário' />
+        <Item link="/calendario" img={Calendar} text='Calendário' />
         <Item link="http://www.google.com" img={Dicas} text='Dicas' />
         <Item link="http://www.google.com" img={Clinicas} text='Clínicas próximas' />
         <Item link="http://www.google.com" img={Notifications} text='Notificações' />

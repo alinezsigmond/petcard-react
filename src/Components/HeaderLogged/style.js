@@ -24,6 +24,9 @@ export const HeaderStyle = styled.header `
         font-size: 38px;
         padding-top: 5%;
     }
+    .back {
+        transform: rotateY(180deg);
+    }
     /* div {
         width: 132px;
         height: 132px;

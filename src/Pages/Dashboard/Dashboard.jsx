@@ -21,7 +21,7 @@ function Dash() {
         <Header img={Profile} titulo='Aline Zsigmond' />
         <div className='dash1'>
           <Link to='/meuspets' ><Icon img={Paw} text='Meus pets'/></Link>
-          <Icon img={Calendar} text='Calendário' />
+          <Link to='/calendario'><Icon img={Calendar} text='Calendário' /></Link>
           <Icon img={Tips} text='Dicas' />
           <Icon img={Clinics} text='Clínicas próximas' />
           <Icon img={Notifications} text='Notificações' />

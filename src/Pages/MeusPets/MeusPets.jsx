@@ -10,7 +10,7 @@ import {IconsStyle} from './style'
 import Paw from '../../assets/images/paw-big.svg'
 import Cat from '../../assets/images/cat.svg'
 import Add from '../../assets/images/add-pet.svg'
-import Tequila from '../../assets/images/teq.png'
+import Tequila from '../../assets/images/teste.jpg'
 
 function MyPets() {
     
@@ -19,7 +19,7 @@ function MyPets() {
             <Header img={Paw} titulo='Meus Pets' />
             <IconsStyle>
                 <span className='my-pets'>
-                    <Icon size='m' img={Tequila} text='Tequila' />
+                    <Link to='/perfilpet'><Icon size='m' img={Tequila} text='Tequila' /></Link>
                     <Icon size='m' img={Cat} text='Joseph' />
                     <Link to='/cadastro-cachorro'><Icon size='m' img={Add} text='Novo pet' /></Link>
                 </span>
