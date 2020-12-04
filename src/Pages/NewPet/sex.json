@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "sex": "Fêmea castrada"
+    },
+    {
+        "id": "2",
+        "sex": "Fêmea fértil"
+    },
+    {
+        "id": "3",
+        "sex": "Macho castrado"
+    },
+    {
+        "id": "4",
+        "sex": "Macho fértil"
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "id": "1",
+        "breed": "SRD"
+    },
+    {
+        "id": "2",
+        "breed": "Akita"
+    },
+    {
+        "id": "3",
+        "breed": "Beagle"
+    },
+    {
+        "id": "5",
+        "breed": "Bichon frisé"
+    },
+    {
+        "id": "6",
+        "breed": "Boiadeir australiano"
+    },
+    {
+        "id": "7",
+        "breed": "Border collie"
+    },
+    {
+        "id": "8",
+        "breed": "Boston terrier"
+    },
+    {
+        "id": "9",
+        "breed": "Boxer"
+    },
+    {
+        "id": "10",
+        "breed": "Buldogue francês"
+    },
+    {
+        "id": "11",
+        "breed": "Buldogue inglês"
+    },
+    {
+        "id": "12",
+        "breed": "Bull terrier"
+    },
+    {
+        "id": "13",
+        "breed": "Cane corso"
+    },
+    {
+        "id": "14",
+        "breed": "Cavalier king charles spaniel"
+    },
+    {
+        "id": "15",
+        "breed": "Chihuahua"
+    },
+    {
+        "id": "16",
+        "breed": "Chow chow"
+    },
+    {
+        "id": "17",
+        "breed": "Cocker spaniel inglês"
+    },
+    {
+        "id": "18",
+        "breed": "Dachshund"
+    },
+    {
+        "id": "19",
+        "breed": "Dálmata"
+    },
+    {
+        "id": "20",
+        "breed": "Doberman"
+    },
+    {
+        "id": "21",
+        "breed": "Dogo argentino"
+    },
+    {
+        "id": "22",
+        "breed": "Dogue alemão"
+    },
+    {
+        "id": "23",
+        "breed": "Fila brasileiro"
+    },
+    {
+        "id": "24",
+        "breed": "Golden retriever"
+    },
+    {
+        "id": "25",
+        "breed": "Husky siberiano"
+    },
+    {
+        "id": "26",
+        "breed": "Jack russell terrier"
+    },
+    {
+        "id": "27",
+        "breed": "Labrador retriever"
+    },
+    {
+        "id": "28",
+        "breed": "Lhasa apso"
+    },
+    {
+        "id": "29",
+        "breed": "Lulu da pomerânia"
+    },
+    {
+        "id": "30",
+        "breed": "Maltês"
+    },
+    {
+        "id": "31",
+        "breed": "Mastiff inglês"
+    },
+    {
+        "id": "32",
+        "breed": "Mastim tibetano"
+    },
+    {
+        "id": "33",
+        "breed": "Pastor alemão"
+    },
+    {
+        "id": "34",
+        "breed": "Pastor australiano"
+    },
+    {
+        "id": "35",
+        "breed": "Pastor de Shetland"
+    },
+    {
+        "id": "36",
+        "breed": "Pequinês"
+    },
+    {
+        "id": "37",
+        "breed": "Pinscher"
+    },
+    {
+        "id": "38",
+        "breed": "Pitbull"
+    },
+    {
+        "id": "39",
+        "breed": "Poodle"
+    },
+    {
+        "id": "40",
+        "breed": "Pug"
+    },
+    {
+        "id": "41",
+        "breed": "Rottweiler"
+    },
+    {
+        "id": "42",
+        "breed": "Schnauzer"
+    },
+    {
+        "id": "43",
+        "breed": "Shar-pei"
+    },
+    {
+        "id": "44",
+        "breed": "Shiba inu"
+    },
+    {
+        "id": "45",
+        "breed": "Shih tzu"
+    },
+    {
+        "id": "46",
+        "breed": "Staffordshire bull terrier"
+    },
+    {
+        "id": "47",
+        "breed": "Weimaraner"
+    },
+    {
+        "id": "48",
+        "breed": "Yorkshire"
+    },
+    {
+        "id": "49",
+        "breed": "Outro"
+    }
+]

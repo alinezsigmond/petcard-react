@@ -4,7 +4,7 @@ export const Selection = styled.div `
     background-color: #92D4EF;
     width: 50%;
     height: 4px;
-    margin-right: 50%;
+    margin-left: 50%;
     @media screen and (min-width: 820px) { 
         margin-left: 50%;
     }

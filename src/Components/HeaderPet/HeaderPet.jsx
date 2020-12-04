@@ -13,7 +13,7 @@ export default function HeaderPet() {
             <p className='fill'>Preencha o formulário abaixo</p>
             <div className='options'>
                 <Link to='/cadastro-cachorro'><p>Cachorro</p></Link>
-                <Link to ='cadastro-gato'><p>Gato</p></Link>
+                <Link to ='/cadastro-gato'><p>Gato</p></Link>
             </div>
         </HeaderStyle>
     )
