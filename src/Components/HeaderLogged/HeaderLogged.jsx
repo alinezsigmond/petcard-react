@@ -9,7 +9,7 @@ import Arrow from '../../assets/images/arrow.svg'
 import CheeseburgerMenu from 'cheeseburger-menu'
 import HamburgerMenu from 'react-hamburger-menu'
 import MenuContent from '../MenuContent/MenuContent'
-import {useState} from 'react';
+import {useState} from 'react'
 import {MenuStyle} from '../MenuContent/style'
 import { useLocation } from 'react-router-dom'
 
@@ -41,7 +41,7 @@ export default function Header(props) {
                 </CheeseburgerMenu></>}
                 {usePathname()==='/perfilpet' && <Link to='meuspets'><img className='back' src={Arrow} alt='' /></Link> }
             </MenuPosition>
-            <Icon size='b' img={ props.img } text={props.titulo} />
+            <Icon className='shrink' size='b' img={ props.img } text={props.titulo} />
         </HeaderStyle>
     )
 }

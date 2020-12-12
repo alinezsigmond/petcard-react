@@ -17,13 +17,13 @@ export default function NewDog() {
                     <input className='data' type='date' name='Data de nascimento' placeholder='Data de nascimento' />
                     <select id="dogSex" name="dogSex" required>
                         { sexes.map((sexes, index) =>
-                            <option key={index} value={sexes.sex}> {sexes.sex}</option>
+                            <option key={index} value={sexes.sex}>{sexes.sex}</option>
                         )}
                     </select>
                     <input type="number" name="pesoDog" placeholder="Peso kg" />
                     <select>
                         { breeds.map((breeds, index) =>
-                            <option key={index} value={breeds.breed}> {breeds.breed}</option>
+                            <option key={index} value={breeds.breed}>{breeds.breed}</option>
                         )}
                     </select>
                 </CadastroPet>

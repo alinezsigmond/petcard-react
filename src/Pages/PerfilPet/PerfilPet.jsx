@@ -5,12 +5,12 @@ import {Content} from './style'
 
 import Vacinas from '../../assets/images/vacinas.svg'
 import Meds from '../../assets/images/meds.svg'
-import Tequila from '../../assets/images/teste.jpg'
+import Tequila from '../../assets/images/teq132.png'
 
 export default function PerfilPet() {
     return (
         <>
-            <Header size='b' img={Tequila} titulo='Tequila' />
+            <Header img={Tequila} size='b' titulo='Tequila' />
             <Content>
                 <div className='icons'>
                     <Icon img={Vacinas} size='med' text='Vacinas' />

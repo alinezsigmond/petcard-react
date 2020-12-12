@@ -1,18 +1,7 @@
 import styled from 'styled-components';
 
-export const IconStyle = styled.p `
-    width: 99px;
-    font-family: 'Summit Attack';
-    font-size: 17px;
-    color: #3C6382;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    text-align: center;
-    margin-block-end: 0;
-
-    div.icon {
+export const IconStyle = styled.div `
+    .icon {
         width: 78px;
         height: 78px;
         border-radius: 8px;
@@ -20,12 +9,7 @@ export const IconStyle = styled.p `
         display: flex;
         align-items: center;
         justify-content: center;
-        img {
-                width: 100%;
-                height: 100%;
-                border-radius: 8px;
-            }
-        
+        margin: auto;    
         &.m {
             width: 99px;
             height: 99px;
@@ -34,11 +18,29 @@ export const IconStyle = styled.p `
             width: 132px;
             height: 132px;
             background-color: #92D4EF;
-            
+            img {
+                /* width: 100%;
+                height: 100%; */
+                border-radius: 8px;
+            }
         }
         &.med {
             width: 118px;
             height: 118px;
         }
+    }
+
+    p {
+        font-family: 'Summit Attack';
+        font-size: 17px;
+        color: #3C6382;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+        flex-direction: row;
+        text-align: center;
+        /* margin-block-end: 0; */
+        width: 99px;
     }
 `

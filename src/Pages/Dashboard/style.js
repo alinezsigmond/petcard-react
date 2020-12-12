@@ -5,9 +5,10 @@ export const Icons = styled.body `
     height: 100%;
 
     .dash1 {
-        margin-top: 2%;
+        margin-top: 13%;
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 2%;
         width: 93%;
         display: flex;
         flex-direction: row;

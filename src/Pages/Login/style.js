@@ -11,8 +11,16 @@ export const LoginStyle = styled.form `
     align-content: center;
     text-align: center;
     padding-left: 12%;
-    padding-bottom: 7%;
-    
+    /* padding-bottom: 7%; */
+    button {
+        border: 0;
+        background-color: #3C6382;
+        color: white;
+        width: 114%;
+        height: 50px;
+        margin-left: -43px;
+        margin-top: 64%;
+    }
     input {
         width: 80%;
         height: 45px;
@@ -44,15 +52,15 @@ export const LoginStyle = styled.form `
 `
 
 export const TextStyle = styled.p `
-    background-color: rgba(146, 213, 239, 0.300);
+    /* background-color: rgba(146, 213, 239, 0.300); */
     font-family: 'Summit Attack';
     color: #2C748C;
     font-size: 15px;
     text-align: center;
-    padding-bottom: 30%;
+    /* padding-bottom: 30%; */
     margin-bottom: 0;
     padding-top: 1%;
-    margin-top: 0;
+    margin-top: -67%;
     @media screen and (min-width: 820px) {
         padding-bottom: 5%;
     }

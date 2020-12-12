@@ -10,7 +10,7 @@ import {IconsStyle} from './style'
 import Paw from '../../assets/images/paw-big.svg'
 import Cat from '../../assets/images/cat.svg'
 import Add from '../../assets/images/add-pet.svg'
-import Tequila from '../../assets/images/teste.jpg'
+import Tequila from '../../assets/images/teq99.png'
 
 function MyPets() {
     
