@@ -12,6 +12,7 @@ import NewDog from './Pages/NewPet/NewDog'
 import NewCat from './Pages/NewPet/NewCat'
 import Calendario from './Pages/Calendário/Calendario'
 import PerfilPet from './Pages/PerfilPet/PerfilPet'
+import Notifications from './Pages/Notifications/Notifications'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/cadastro-gato" component={NewCat} />
         <Route path='/calendario' component={Calendario} />
         <Route path='/perfilpet' component={PerfilPet} />
+        <Route path='/notificacoes' component={Notifications} />
       </Switch>
     </BrowserRouter>
     </>
