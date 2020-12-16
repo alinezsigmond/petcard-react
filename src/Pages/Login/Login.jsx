@@ -30,7 +30,7 @@ export default function Login() {
             <LoginStyle onSubmit={handleSubmit}>
                 <input type="text" name="email" value={inputs.email} onChange={handleInputChange} placeholder='E-mail' />
                 <input type="password" name="password" value={inputs.password} onChange={handleInputChange} placeholder='Senha' />
-                <button type='submit' > <img src={Arrow} alt='' /> </button>
+                <Link to='/dashboard'><button type='submit' > <img src={Arrow} alt='' /> </button></Link>
             </LoginStyle>
                 <TextStyle>Esqueceu sua senha?</TextStyle>
             {/* <Link to='/dashboard'><Footer /></Link> */}

@@ -19,12 +19,12 @@ function Dash() {
     <>
       <Icons>
         <Header img={Profile} titulo='Aline Zsigmond' />
-        <div className='dash1'>
+        <div className='dash'>
           <Link to='/meuspets' ><Icon img={Paw} text='Meus pets'/></Link>
           <Link to='/calendario'><Icon img={Calendar} text='Calendário' /></Link>
           <Icon img={Tips} text='Dicas' />
           <Icon img={Clinics} text='Clínicas próximas' />
-          <Icon img={Notifications} text='Notificações' />
+          <Link to='/notificacoes'><Icon img={Notifications} text='Notificações' /></Link>
           <Link to='/' ><Icon img={Logout} text='Sair' /></Link>
         </div>
       </Icons>

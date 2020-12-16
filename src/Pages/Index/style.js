@@ -5,9 +5,9 @@ export const IndexStyle = styled.div `
     background-color: rgba(146, 213, 239, 0.300);
     background-image: url(${bg});
     width: 100%;
-    height: 100%;
+    height: 640px;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -22,6 +22,7 @@ export const IndexStyle = styled.div `
         width: 75%;
         margin-left: 3%;
         margin-right: 3%;
+        margin-bottom: 15%;
     }
     .cadastro {
         font-family: 'Summit Attack';
@@ -29,9 +30,10 @@ export const IndexStyle = styled.div `
         color: #3C6382;
     }
     .logo {
-        padding-top: 15%;
+        padding-top: 18%;
         width: 80%;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     @media screen and (min-width: 820px) {
         .slogan {

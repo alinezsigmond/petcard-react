@@ -1,9 +1,11 @@
 import styled from 'styled-components'
+import bg from '../../assets/images/pawPattern-dark-big.svg'
 
 export const SmallHeader = styled.header `
     width: 100%;
     height: 130px;
     background-color: #3C6382;
+    background-image: url(${bg});
     color: #FFF;
     text-align: center;
     h1 {

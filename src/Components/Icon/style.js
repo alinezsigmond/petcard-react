@@ -40,7 +40,7 @@ export const IconStyle = styled.div `
         align-content: flex-start;
         flex-direction: row;
         text-align: center;
-        /* margin-block-end: 0; */
+        margin-block-start: 10%;
         width: 99px;
     }
 `
