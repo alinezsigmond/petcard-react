@@ -12,6 +12,8 @@ import NewDog from './Pages/NewPet/NewDog'
 import NewCat from './Pages/NewPet/NewCat'
 import Calendario from './Pages/Calendário/Calendario'
 import PerfilPet from './Pages/PerfilPet/PerfilPet'
+import Vacinas from './Pages/Vacinas/Vacinas'
+import NovaVacina from './Pages/NovaVacina/NovaVacina'
 import Notifications from './Pages/Notifications/Notifications'
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
         <Route path="/cadastro-gato" component={NewCat} />
         <Route path='/calendario' component={Calendario} />
         <Route path='/perfilpet' component={PerfilPet} />
+        <Route path='/vacinas' component={Vacinas} />
+        <Route path='/novavacina' component={NovaVacina} />
         <Route path='/notificacoes' component={Notifications} />
       </Switch>
     </BrowserRouter>

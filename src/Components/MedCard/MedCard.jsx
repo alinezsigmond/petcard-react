@@ -1,8 +1,8 @@
 import React from 'react'
-import { Card } from './style'
+import { CardStyle } from './style'
 import Switch from '@material-ui/core/Switch'
 
-export default function NotificationCard(props) {
+export default function MedCard(props) {
     const [state, setState] = React.useState({
         checkedA: true,
         checkedB: true,
@@ -11,9 +11,9 @@ export default function NotificationCard(props) {
       const handleChange = (event) => {
         setState({ ...state, [event.target.name]: event.target.checked });
     };
-    return (
-        <Card>
-            <p className='med'> {props.titulo} </p>
+    return(
+        <CardStyle>
+            <p className='med'> {props.med} </p>
             <div className='switch' >
                 <Switch
                     checked={state.checkedB}
@@ -23,8 +23,6 @@ export default function NotificationCard(props) {
                     inputProps={{ 'aria-label': 'primary checkbox' }}
                     />
             </div>
-            <p className='day'> {props.dia} </p>
-            <p className='time'> {props.hora} </p>
-        </Card>
+        </CardStyle>
     )
 }
