@@ -24,7 +24,7 @@ export default function MenuContent(props) {
         <Item link="/calendario" img={Calendar} text='Calendário' />
         <Item link="http://www.google.com" img={Dicas} text='Dicas' />
         <Item link="http://www.google.com" img={Clinicas} text='Clínicas próximas' />
-        <Item link="http://www.google.com" img={Notifications} text='Notificações' />
+        <Item link="/notificacoes" img={Notifications} text='Notificações' />
         <Item link="/" img={Logout} text='Logout' />
       </div>
     </MenuStyle>

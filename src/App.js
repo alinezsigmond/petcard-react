@@ -14,6 +14,7 @@ import Calendario from './Pages/Calendário/Calendario'
 import PerfilPet from './Pages/PerfilPet/PerfilPet'
 import Vacinas from './Pages/Vacinas/Vacinas'
 import NovaVacina from './Pages/NovaVacina/NovaVacina'
+import Meds from './Pages/Meds/Meds'
 import Notifications from './Pages/Notifications/Notifications'
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path='/perfilpet' component={PerfilPet} />
         <Route path='/vacinas' component={Vacinas} />
         <Route path='/novavacina' component={NovaVacina} />
+        <Route path='/remedios' component={Meds} />
         <Route path='/notificacoes' component={Notifications} />
       </Switch>
     </BrowserRouter>

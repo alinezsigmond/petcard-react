@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Header from '../../Components/HeaderLogged/HeaderLogged'
 import Tequila from '../../assets/images/teq132.png'
 import MedCard from '../../Components/MedCard/MedCard'
@@ -9,11 +8,12 @@ export default function Vacinas() {
 
     return (
         <>
-            <Header img={Tequila} size='b' titulo='Vacinas da Tequila' />
+            <Header img={Tequila} size='b' titulo='Remédios da Tequila' />
             <ContentStyle>
-                <MedCard med='Leishmaniose' />
-                <MedCard med='Cinomose' />
-                <Link to='/novavacina'><button>Adicionar nova vacina</button></Link>
+                <MedCard med='Hylo-Gel' />
+                <MedCard med='Pred fort' />
+                <MedCard med='Tobramicina' />
+                <button>Adicionar novo remédio</button>
             </ContentStyle>
         </>
     )

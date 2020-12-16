@@ -15,7 +15,7 @@ export default function PerfilPet() {
             <Content>
                 <div className='icons'>
                     <Link to='/vacinas'><Icon img={Vacinas} size='med' text='Vacinas' /></Link>
-                    <Icon img={Meds} size='med' text='Remédios' />
+                    <Link to='/remedios'><Icon img={Meds} size='med' text='Remédios' /></Link>
                 </div>
             </Content>
         </>

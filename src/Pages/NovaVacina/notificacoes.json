@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "notificacao": "Um dia antes"
+    },
+    {
+        "id": "2",
+        "notificacao": "Uma semana antes"
+    },
+    {
+        "id": "3",
+        "notificacao": "Duas semanas antes"
+    },
+    {
+        "id": "3",
+        "notificacao": "Um mês antes"
+    }
+]

@@ -6,11 +6,11 @@ export const Content = styled.div `
     background-color: rgba(146, 213, 239, 0.300);
     padding-top: 10%;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    /* justify-content: center; */
+    /* align-content: center; */
     /* padding-bottom: 50%; */
     .icons {
-        padding: auto;
+        /* padding: auto; */
         width: 90%;
         display: flex;
         /* background-color: lime; */

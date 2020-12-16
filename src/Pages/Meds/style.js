@@ -8,10 +8,6 @@ export const ContentStyle = styled.div `
     flex-direction: column;
     padding-top: 7%;
     button {
-        display: flex;
-        justify-self: center;
-        justify-content: center;
-        align-content: center;
         width: 70%;
         height: 44px;
         background-color: #3C6382;
@@ -20,9 +16,6 @@ export const ContentStyle = styled.div `
         color: #FFF;
         font-family: 'Summit Attack';
         font-size: 16px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5%;
-        padding-top: 3.5%;
+        margin: auto;
     }
 `
