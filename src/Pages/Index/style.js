@@ -4,8 +4,10 @@ import bg from '../../assets/images/pawPattern-light.svg'
 export const IndexStyle = styled.div `
     background-color: rgba(146, 213, 239, 0.300);
     background-image: url(${bg});
-    width: 100%;
-    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
     text-align: center;
     padding-top: 0;
     display: flex;

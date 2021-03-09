@@ -5,7 +5,7 @@ export const HeaderLoginStyle = styled.div `
     background-color: #3C6382;
     background-image: url(${bg});
     height: 242px;
-    width: 100%;
+    width: 100vw;
     color: #FFF;
     font-family: 'Summit Attack';
     font-size: 21px;
@@ -34,15 +34,12 @@ export const HeaderLoginStyle = styled.div `
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            margin-top: 2.3%;
         }
     }
     @media screen and (max-height: 600px) {
         img {
             margin-top: 16%;
         }
-        .options {
-            margin-top: 5%;
-        }
+
     }
 `

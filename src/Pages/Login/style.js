@@ -2,24 +2,22 @@ import styled from 'styled-components'
 
 export const LoginStyle = styled.form `
     background-color: rgba(146, 213, 239, 0.300);
-    width: 88%;
-    height: 100%;
-    padding-top: 5%;
-    margin-top: -1%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-content: center;
+    align-items: center;
+    justify-content: space-between;
     text-align: center;
-    padding-left: 12%;
+
     /* padding-bottom: 7%; */
     button {
         border: 0;
         background-color: #3C6382;
         color: white;
-        width: 114%;
+        width: 100vw;
         height: 50px;
-        margin-left: -43px;
-        margin-top: 64%;
     }
     input {
         width: 80%;
@@ -31,7 +29,7 @@ export const LoginStyle = styled.form `
         color: #3C6382;
         padding-left: 5%;
     }
-    @media screen and (min-width: 820px) {
+    /*@media screen and (min-width: 820px) {
         margin-top: -4px;
         padding-left: 35%;
         width: 65%;
@@ -48,7 +46,7 @@ export const LoginStyle = styled.form `
         p {
             padding-top: 1%;
         }
-    }
+    }*/
 `
 
 export const TextStyle = styled.p `
@@ -59,8 +57,6 @@ export const TextStyle = styled.p `
     text-align: center;
     /* padding-bottom: 30%; */
     margin-bottom: 0;
-    padding-top: 1%;
-    margin-top: -67%;
     @media screen and (min-width: 820px) {
         padding-bottom: 5%;
     }
@@ -71,7 +67,7 @@ export const Selection = styled.div `
     width: 50%;
     height: 4px;
     margin-left: 50%;
-    @media screen and (min-width: 820px) {
+    /*@media screen and (min-width: 820px) {
         margin-left: 50%;
-    }
+    }*/
 `
